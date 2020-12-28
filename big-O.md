@@ -36,7 +36,7 @@
 | O(n log n)           | [Linearithmic](#linearithmic)         |
 | O(n \* log(n))       | [Loglinear](#loglinear)               |
 | O(n<sup>2</sup>)     | [Polynomial](#polynomial) (Quadratic) |
-| O(n <sup> 3 </sup> ) | [Polynomial](#polynomial) (Cubic)                    |
+| O(n <sup> 3 </sup> ) | [Polynomial](#polynomial) (Cubic)     |
 | O(2 <sup> n </sup> ) | [Exponential](#exponential)           |
 | O(n!)                | [Factorial](#factorial)               |
 
@@ -54,6 +54,8 @@ _Click algorithm name for more details_
   - Print the first element from a list.
   - Find a value on a map.
 - Constant growth indicates the behavior stays constant for all values of n
+
+###
 
 #### Constant Growth
 
@@ -353,7 +355,7 @@ function bubbleSort(array) {
   - Start an inner loop from the beginning until `i - 1`
     - If the current value of the outer loop is greater than the current value of the inner loop, swap those two values
 
-![bubble](https://s3-us-west-1.amazonaws.com/appacademy-open-assets/data_structures_algorithms/naive_sorting_algorithms/bubble_sort/images/BubbleSort.gif)
+<img src="https://s3-us-west-1.amazonaws.com/appacademy-open-assets/data_structures_algorithms/naive_sorting_algorithms/bubble_sort/images/BubbleSort.gif" />
 
 ---
 
@@ -429,7 +431,7 @@ function insertionSort(arr) {
   - Swap if necessary
   - Repeat until array is sorted
 
-## ![insertion](https://s3-us-west-1.amazonaws.com/appacademy-open-assets/data_structures_algorithms/naive_sorting_algorithms/insertion_sort/images/InsertionSort.gif)
+<img src=https://s3-us-west-1.amazonaws.com/appacademy-open-assets/data_structures_algorithms/naive_sorting_algorithms/insertion_sort/images/InsertionSort.gif />
 
 ## <b>Merge Sort</b> <a id="mergesort"></a>
 
